@@ -1,0 +1,57 @@
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #f5f5dc;
+    color: #263238;
+}
+.hero {
+    background: url('images/machu.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+.hero p {
+    font-size: 1.2em;
+}
+.explore-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background: #e65100;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.tours, .unique, .about {
+    padding: 40px 20px;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.card {
+    width: 200px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.card img {
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+}
+.unique img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
